@@ -1,0 +1,5 @@
+The program uses a function which takes in six pokemon objects, and returns an array of six pokemon objects that exist as the optimal counterpick to those input, weighted based on type, statistics, and following the structure of a common competitive team.
+
+To create a team of six pokemon, input the pokedex number as a three digit string into the Maker.find functions six times (Maker.find for anything less than 100, Maker.findKang for 115, and Maker.find2 for any others 100-712).  As the program is, each pokemon must also be inputted in order relative to its pokedex number, and the same pokemon can't be used twice in a team.  Four examples currently exist in the main, printing the resulting counterpick.
+  
+(Several print statements are currently commented out in the helper functions, can be uncommented to understand the process more)
